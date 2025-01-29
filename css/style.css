@@ -1,0 +1,92 @@
+/* Ini File CSS */
+
+main {
+    display: flex;
+    gap: 32px;
+    padding: 32px;
+}
+
+footer {
+    text-align: center;
+}
+
+.main-header {
+    text-align: center;
+    background: antiquewhite;
+    padding: 15px;
+    border-radius: 15px
+}
+
+input[type=number] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 15px;
+}
+
+form {
+    background-color: antiquewhite;
+    padding: 32px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 16px;
+}
+
+button {
+    border: none;
+    padding: 8px;
+    color: antiquewhite;
+    border-radius: 10px;
+    transition: background-color 0.3s, color 0.3s, transform 0.2s;
+}
+
+button:hover {
+    background-color: #5f9ea0; 
+    transform: scale(1.05);
+}
+
+.bg-black {
+    background-color: black;
+}
+
+.bg-cadet-blue {
+    background-color: cadetblue;
+}
+
+.result-section {
+    padding: 16px;
+    text-align: center;
+    background-color: antiquewhite;
+}
+
+#result-bmi {
+    font-size: xxx-large;
+    font-family: math;
+}
+
+.rumus-bmi {
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    background-color: cadetblue;
+    border: 1px solid black;
+    width: fit-content;
+    padding: 10px;
+    border-radius: 5px;
+    transition: transform 0.3s;
+}
+
+.rumus-bmi:hover {
+    transform: scale(1.05);
+}
+
+/* CSS ini akan di terapkan ketika lebar layar lebih kecil dari 480px */
+@media only screen and (max-width: 480px) {
+    main {
+        flex-direction: column;
+    }
+}
