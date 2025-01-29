@@ -1,8 +1,10 @@
 /* Ini File CSS */
-
+body {
+    margin: 0;
+}
 main {
     display: flex;
-    gap: 32px;
+    gap: 100px;
     padding: 32px;
 }
 
@@ -73,17 +75,20 @@ button:hover {
 .rumus-bmi {
     font-weight: bold;
     font-size: 20px;
-    color: white;
-    background-color: cadetblue;
-    border: 1px solid black;
+    color: cadetblue;
     width: fit-content;
     padding: 10px;
-    border-radius: 5px;
     transition: transform 0.3s;
 }
 
 .rumus-bmi:hover {
     transform: scale(1.05);
+}
+
+footer {
+    background-color: antiquewhite;
+    padding: 15px;
+
 }
 
 /* CSS ini akan di terapkan ketika lebar layar lebih kecil dari 480px */
